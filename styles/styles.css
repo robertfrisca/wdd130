@@ -12,7 +12,7 @@ nav{
 }
 
 aside img {
-    width: 200px;
+    width: 250px;
     height: auto;
 }
 
@@ -30,8 +30,8 @@ footer{
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, .1);
     padding: 1rem;
-    background-color: #F0F3F4  ;
-    color: #333333;
+    background-color: #F0F0F0;
+    color: #000;
 }
 aside{
     position: relative;
