@@ -1,0 +1,95 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Raleway:wght@100&display=swap');
+
+/* Define CSS variables for color scheme */
+:root{
+    --primary-color:#141B41;
+    --secondary-color: #306BAC;
+    --accent1-color:#17202A;
+    --accent2-color: #FDFEFE  ;
+
+    --heading-font:'Raleway', sans-serif;
+    --paragraph-font:'Raleway', sans-serif;
+    
+    --nav-background-color:#98B9F2;
+    --nav-link-color:#141B41;
+    --nav-hover-link-color: #f4d03f ;
+    --nav-hover-background-color:#306BAC;
+
+}
+
+
+
+h1, h2 {
+    font-family: var(--heading-font);
+  font-size: 36px;
+  color: var(--primary-color);
+}
+
+p {
+  font-family: var(--paragraph-font);
+  font-size: 18px;
+  color: var(--accent1-color);
+}
+
+
+.social-link {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
+
+.social-link:hover {
+  text-decoration: none;
+}
+
+/* Limit the width of the page */
+body {
+  max-width: 960px; 
+  margin: 0 auto; 
+}
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+nav a:hover{
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+
+.hero {
+    position: relative;
+  }
+  
+ 
+  .hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  
+  .hero h1 {
+    position: absolute;
+    color: var(--accent2-color); 
+    font-size: 36px; 
+  }
+  
+  .hero article {
+    background-color: rgba(0, 0, 0, 0.7); 
+    color:var(--accent2-color); 
+    padding: 20px; 
+    position: absolute; 
+    top: 60%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+  }
+  .hero article p {
+    color:var(--accent2-color); 
+    
+  }
+  .hero article img {
+    float: right;
+    margin-left: 20px;
+  }
+  
