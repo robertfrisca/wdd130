@@ -207,7 +207,7 @@ figure:hover img {
 footer {
   
   color: var(--accent2-color);
-  padding: 5px;
+  padding: 20px;
   display: flex;
   margin-left: 50px;
   justify-content: space-between;
