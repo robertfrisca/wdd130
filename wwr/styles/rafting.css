@@ -59,7 +59,7 @@ nav a:hover{
   
     .hero h1 {
       position: absolute;
-      top: 160px; 
+      top: 100px; 
       left: 50%;
       transform: translateX(-50%);
       color: var(--accent2-color);
@@ -89,7 +89,7 @@ nav a:hover{
     
   }
   .hero article img {
-    width: 50%;
+  width: 50%;
   height: auto;
   order: 1; 
   float: right; 
