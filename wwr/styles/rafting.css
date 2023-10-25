@@ -297,3 +297,173 @@ form input[type="submit"] {
 form input[type="submit"]:hover {
   background-color: var(--nav-hover-link-color);
 }
+
+/* Styles for the new sections excluding the hero */
+
+.newsletter {
+  padding: 40px;
+}
+
+.newsletter h2 {
+  text-align: center;
+  font-size: 28px;
+  color: var(--primary-color);
+  margin-bottom: 20px;
+}
+
+.newsletter form {
+  text-align: center;
+}
+
+.newsletter form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+.newsletter form input[type="text"],
+.newsletter form input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+}
+
+.newsletter form input[type="submit"] {
+  background-color: var(--secondary-color);
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.cta {
+  padding: 40px;
+  text-align: center;
+}
+
+.cta h2 {
+  text-align: center;
+  font-size: 28px;
+  color: var(--primary-color);
+  margin-bottom: 20px;
+}
+
+.cta .cta-button {
+  display: inline-block;
+  background-color: var(--secondary-color);
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.cta .cta-button:hover {
+  background-color: var(--nav-hover-link-color);
+}
+
+.purpose {
+  padding: 40px;
+}
+
+.purpose h2 {
+  text-align: center;
+  font-size: 28px;
+  color: var(--primary-color);
+  margin-bottom: 20px;
+}
+
+.purpose .purpose-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.purpose .purpose-item {
+  text-align: center;
+}
+
+.purpose .purpose-item img {
+  width: 100%;
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.purpose .purpose-item p {
+  color: var(--accent1-color);
+}
+
+.call-to-action {
+  background: url("images/cta-background.jpg") no-repeat center center;
+  background-size: cover;
+  text-align: center;
+  padding: 100px 0;
+  color: #fff;
+}
+
+.call-to-action h2 {
+  font-size: 36px;
+}
+.call-to-action p {
+  font-size: 24px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #f4d03f;
+  color: #141B41;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #306BAC;
+}
+
+.trips {
+  padding: 20px;
+}
+
+.trip {
+  margin-bottom: 40px;
+}
+
+.trip img {
+  width: 100%;
+  max-width: 500px; 
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: transform 0.3s; 
+}
+.trip img:hover {
+  transform: scale(1.1); 
+}
+.trip h3 {
+  font-size: 36px;
+  margin: 10px 0;
+}
+
+.trip p {
+  font-size: 30px;
+  color: #000000;
+  margin: 10px 0;
+  
+
+}
+
+.details {
+  margin-top: 24px;
+}
+
+.details p {
+  font-size: 24px;
+}
