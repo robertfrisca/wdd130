@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/quiz.css">
+    <title>quiz</title>
+</head>
+<body>
+    <h1>HTML and CSS Quiz</h1>
+    <form action="quiz-results.html" method="post">
+       
+        <fieldset>
+            <label for="q1">What does HTML stand for?</label>
+            <input type="text" id="q1" name="q1" required>
+        </fieldset>
+
+       
+        <fieldset>
+            <label for="q2">What does CSS stand for?</label>
+            <input  type="text" id="q2" name="q2" required>
+                
+            </input>
+        </fieldset>
+
+     
+        <fieldset>
+            <label for="q3">Which HTML tag is used to create an unordered list?</label>
+            <select id="q3" name="q3" required>
+                <option value="" selected disabled>Choose One ...</option>
+                <option value="ul">UL</option>
+                <option value="ol">OL</option>
+                <option value="li">LI</option>
+            </select>
+        </fieldset>
+
+     
+        <fieldset>
+            <label for="q4">What is the top margin given in this declaration?</label>
+            <img src="/images/test.PNG" alt="">
+            <input type="number" name="q4" id="q4" required>
+        </fieldset>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
