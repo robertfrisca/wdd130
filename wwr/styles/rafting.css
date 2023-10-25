@@ -228,6 +228,18 @@ footer {
 .social-links img:hover {
   transform: scale(1.1);
 }
+.company-info p {
+  font-size: 24px;
+  color: #000000;
+  font-weight: 800;
+  
+}
+.company-info address {
+  font-size: 24px;
+  color: #000000;
+  font-weight: 800;
+  
+}
 .employee-profiles {
   display: flex;
   flex-wrap: wrap;
@@ -251,7 +263,7 @@ footer {
   color: var(--primary-color);
 }
 
-/* Style form elements */
+
 form {
   margin-top: 20px;
   padding: 20px;
@@ -298,7 +310,7 @@ form input[type="submit"]:hover {
   background-color: var(--nav-hover-link-color);
 }
 
-/* Styles for the new sections excluding the hero */
+
 
 .newsletter {
   padding: 40px;
